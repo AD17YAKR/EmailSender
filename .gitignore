@@ -1,0 +1,37 @@
+
+---
+
+### **.gitignore**
+
+Here is a `.gitignore` file tailored for this project:
+
+```gitignore
+# Node modules
+node_modules/
+
+# Environment variables
+.env
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Typescript compiled output
+dist/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+
+# Optional npm cache directory
+.npm
+
+# Coverage reports
+coverage/
