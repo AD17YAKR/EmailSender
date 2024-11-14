@@ -1,0 +1,81 @@
+<mjml>
+  <mj-head>
+    <mj-title>Welcome to GDG Kolkata!</mj-title>
+    <mj-font name="Google Sans" href="https://fonts.googleapis.com/css2?family=Google+Sans:wght@400;500;700" />
+    <mj-attributes>
+      <mj-text font-family="Google Sans, Arial" />
+      <mj-button background-color="#4285F4" />
+    </mj-attributes>
+  </mj-head>
+  <mj-body background-color="#f5f5f5">
+    <!-- Header Section -->
+    <mj-section background-color="#4285F4" padding-bottom="0">
+      <mj-column>
+        <mj-image src="{{imageUrl}}" alt="GDG Kolkata Logo" width="150px" padding="20px" />
+      </mj-column>
+    </mj-section>
+
+    <!-- Welcome Message Section -->
+    <mj-section background-color="#ffffff" border-radius="5px" padding-top="20px">
+      <mj-column>
+        <mj-text font-size="24px" color="#202124" font-weight="bold" align="center">
+          Welcome to GDG Kolkata! 🎉
+        </mj-text>
+        <mj-text font-size="16px" color="#5F6368" line-height="24px" padding-top="20px">
+          Dear {{name}},
+        </mj-text>
+        <mj-text font-size="16px" color="#5F6368" line-height="24px">
+          We're thrilled to welcome you to the Google Developer Group Kolkata community! 🚀 As one of the most vibrant tech communities in Eastern India, we're excited to have you join our journey of learning, sharing, and growing together.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- What to Expect Section -->
+    <mj-section background-color="#ffffff" padding-top="0">
+      <mj-column>
+        <mj-text font-size="18px" color="#202124" font-weight="bold">
+          What you can expect:
+        </mj-text>
+        <mj-text font-size="16px" color="#5F6368" line-height="24px">
+          • Regular tech meetups and workshops<br>
+          • Hands-on coding sessions<br>
+          • Networking opportunities with industry experts<br>
+          • Access to Google Developer resources<br>
+          • Exclusive community events<br>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- CTA Section -->
+    <mj-section background-color="#ffffff" padding-bottom="40px">
+      <mj-column>
+        <mj-button background-color="#4285F4" font-size="16px" border-radius="4px" padding="12px 25px">
+          Join Our Discord Community
+        </mj-button>
+        <mj-social font-size="15px" icon-size="30px" mode="horizontal" padding-top="20px">
+          <mj-social-element name="twitter" href="https://twitter.com/gdgkolkata">
+            Twitter
+          </mj-social-element>
+          <mj-social-element name="linkedin" href="https://linkedin.com/company/gdgkolkata">
+            LinkedIn
+          </mj-social-element>
+          <mj-social-element name="instagram" href="https://instagram.com/gdgkolkata">
+            Instagram
+          </mj-social-element>
+        </mj-social>
+      </mj-column>
+    </mj-section>
+
+    <!-- Footer Section -->
+    <mj-section background-color="#f5f5f5">
+      <mj-column>
+        <mj-text font-size="12px" color="#5F6368" align="center">
+          Google Developer Group Kolkata
+        </mj-text>
+        <mj-text font-size="12px" color="#5F6368" align="center">
+          Kolkata, West Bengal, India
+        </mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>
